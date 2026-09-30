@@ -1,0 +1,13 @@
+# Textos secretos en claro (cartas, borradores): NO subir
+secrets-source/
+*.secret.*
+.claude/
+
+# Originales privados (fotos y canción en claro): NO subir
+private-src/
+
+# Herramienta de cifrado con las respuestas y la fecha precargadas: solo en local
+tools/encrypt.html
+
+AGENTS.md
+specs.md

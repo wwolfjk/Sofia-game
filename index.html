@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#f3e9d6">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Para Sofía</title>
+  <link rel="stylesheet" href="css/style.css?v=21">
+</head>
+<body>
+  <!-- Versión de la publicación: sube el número de ?v= en todos los scripts y en el css cuando subas cambios (evita que el móvil use archivos viejos) -->
+  <!-- Pantalla 1: pregunta -->
+  <main id="gate" class="screen">
+    <form id="gate-form" autocomplete="off">
+      <h1 id="gate-title"></h1>
+      <p id="gate-question"></p>
+      <input id="gate-input" type="text" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="go">
+      <button id="gate-button" type="submit"></button>
+      <p id="gate-error" role="alert"></p>
+    </form>
+  </main>
+
+  <!-- Pantalla 2: juego -->
+  <div id="game" class="screen" hidden>
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <div id="reward" hidden></div>
+
+  <script src="config.js?v=21"></script>
+  <script src="vault-data.js?v=21"></script>
+  <script src="photos-vault.js?v=21"></script>
+  <script src="js/vault.js?v=21"></script>
+  <script src="js/input.js?v=21"></script>
+  <script src="js/assets.js?v=21"></script>
+  <script src="js/privates.js?v=21"></script>
+  <script src="js/art.js?v=21"></script>
+  <script src="js/powerups.js?v=21"></script>
+  <script src="js/enemies.js?v=21"></script>
+  <script src="js/boss.js?v=21"></script>
+  <script src="js/story.js?v=21"></script>
+  <script src="js/sound.js?v=21"></script>
+  <script src="js/reward.js?v=21"></script>
+  <script src="js/game.js?v=21"></script>
+  <script src="js/main.js?v=21"></script>
+</body>
+</html>
